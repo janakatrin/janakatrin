@@ -188,7 +188,7 @@ input, select, textarea {
   display: table;
 }
 
-iframe.example { width: 100%; height: 900px; margin: 0;}
+iframe.example { width: 100%; height: 900px; margin: 0; padding: 0 8px 0 8px}
 
 
 /*
@@ -2806,6 +2806,7 @@ iframe.example { width: 100%; height: 900px; margin: 0;}
 			display: block;
 			margin: 2.5rem 0;
 			width: 100%;
+            padding: 0 8px;
 		}
 
 			.image.fit:first-child {
@@ -2815,10 +2816,15 @@ iframe.example { width: 100%; height: 900px; margin: 0;}
 			.image.fit img {
 				width: 100%;
 			}
+        .image.main1 {
+            display: block;
+            margin: 4rem 0;
+            width: 100%;
+        }
 
 		.image.main {
 			display: block;
-			margin: 4rem 0;
+			margin: 0rem 0;
 			width: 100%;
 		}
 
