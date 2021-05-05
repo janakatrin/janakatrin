@@ -3408,10 +3408,10 @@ iframe.example { width: 100%; height: 900px; margin: 0; padding: 0 8px 0 8px}
 /* Wrapper */
 
 	#wrapper {
-		-moz-transition: opacity 0.2s ease;
-		-webkit-transition: opacity 0.2s ease;
-		-ms-transition: opacity 0.2s ease;
-		transition: opacity 0.2s ease;
+		-moz-transition: opacity 0.5s ease;
+		-webkit-transition: opacity 0.5s ease;
+		-ms-transition: opacity 0.5s ease;
+		transition: opacity 0.5s ease;
 		position: relative;
 		z-index: 1;
 		overflow: hidden;
@@ -3423,12 +3423,12 @@ iframe.example { width: 100%; height: 900px; margin: 0; padding: 0 8px 0 8px}
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background-color: #d9d9d9;
+			background-color: #212931;
 			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/_DSF1480.jpg");
-			background-size: auto, auto, 100% auto;
-			background-position: center, center,	top center;
-			background-repeat: no-repeat, no-repeat,no-repeat;
-			background-attachment: scroll, scroll, scroll;
+			background-size: auto,								auto,														100% auto;
+			background-position: center,								center,														top center;
+			background-repeat: repeat,								no-repeat,													no-repeat;
+			background-attachment: scroll,								scroll,														scroll;
 			z-index: -1;
 		}
 
@@ -3448,7 +3448,7 @@ iframe.example { width: 100%; height: 900px; margin: 0; padding: 0 8px 0 8px}
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background: #d9d9d9;
+			background: #1e252d;
 			content: '';
 			display: block;
 			height: 100%;
