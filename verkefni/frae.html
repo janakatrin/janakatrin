@@ -158,21 +158,28 @@
 					</div>
 
 			</div>
-
+        <!-- My modal -->
+            <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+            </div>
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+            
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+            <script src="../assets/js/popimg.js"></script>
             <script type="text/javascript">
                 function refreshPage () {
                     var page_y = document.getElementsByTagName("body")[0].scrollTop;
                     window.location.href = window.location.href.split('?')[0] + '?page_y=' + page_y;
                 }
             </script>
-
+            
 	</body>
 </html>
