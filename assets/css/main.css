@@ -100,7 +100,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #1e252d;
+		background-color: #d9d9d9;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -119,16 +119,6 @@ input, select, textarea {
 
 
 
-/* img */
-    img {
-        display: block;
-        width: 99%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: auto;
-        margin-bottom: auto;
-        
-}
 /* div fyrir issuu */
 .columnissuu {
   float: left;
@@ -136,6 +126,47 @@ input, select, textarea {
   padding: 5px;
 }
 
+/* Image */
+
+	.image {
+		display: inline-block;
+		outline: 0;
+	}
+
+		.image img {
+			display: block;
+			width: 100%;
+		}
+
+		.image.centered {
+			display: block;
+			margin: 0 0 2em 0;
+		}
+
+			.image.centered img {
+				margin: 0 auto;
+				width: auto;
+			}
+
+		.image.featured {
+			display: block;
+			width: 100%;
+			margin: 0 0 0 0;
+		}
+
+		.image.left {
+			float: left;
+			margin: 0 2em 2em 0;
+		}
+/* img */
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        
+}
 
 /* Til að fá myndir hlið við hlið*/
 .column3 {
@@ -194,7 +225,7 @@ iframe.example { width: 100%; height: 900px; margin: 0;}
   top: 0;
   width: 100%; /* Full width */
   height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
+  overflow: none; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
@@ -203,8 +234,8 @@ iframe.example { width: 100%; height: 900px; margin: 0;}
 .modal-content {
   margin: auto;
   display: block;
-  width: 80%;
-  max-width: 700px;
+  width: 65%;
+  /*max-width: 700px;*/
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
@@ -328,7 +359,7 @@ iframe.example { width: 100%; height: 900px; margin: 0;}
 		margin: 0 8px 2rem 8px;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h2b, h3, h4, h5, h6 {
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-weight: 900;
 		line-height: 1.5;
@@ -353,6 +384,11 @@ iframe.example { width: 100%; height: 900px; margin: 0;}
 		font-size: 1.75rem;
 		line-height: 1.3;
 		margin: 0 0 1.5rem 0;
+	}
+    h2b {
+		font-size: 1.75rem;
+		line-height: 1.3;
+		margin: 2em 0 1.5rem 0;
 	}
 
 	h3 {
@@ -446,7 +482,7 @@ iframe.example { width: 100%; height: 900px; margin: 0;}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #18bfef !important;
+			/*color: #18bfef !important;*/
 		}
 
 	strong, b {
@@ -3091,7 +3127,7 @@ iframe.example { width: 100%; height: 900px; margin: 0;}
 			font-size: 0.8rem;
 			margin-top: -0.75rem;
 		}
-
+        
 		header.major {
 			margin: 0 8px 4rem 8px;
 			text-align: center;
@@ -3381,12 +3417,12 @@ iframe.example { width: 100%; height: 900px; margin: 0;}
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background-color: #212931;
-			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
-			background-size: auto,								auto,														100% auto;
-			background-position: center,								center,														top center;
-			background-repeat: repeat,								no-repeat,													no-repeat;
-			background-attachment: scroll,								scroll,														scroll;
+			background-color: #d9d9d9;
+			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/_DSF1480.jpg");
+			background-size: auto, auto, 100% auto;
+			background-position: center, center,	top center;
+			background-repeat: no-repeat, no-repeat,no-repeat;
+			background-attachment: scroll, scroll, scroll;
 			z-index: -1;
 		}
 
@@ -3406,7 +3442,7 @@ iframe.example { width: 100%; height: 900px; margin: 0;}
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background: #1e252d;
+			background: #d9d9d9;
 			content: '';
 			display: block;
 			height: 100%;
